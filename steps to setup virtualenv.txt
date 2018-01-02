@@ -1,0 +1,14 @@
+Create a virtual environment to use python 3.6 ,because my default version in python is 2.7.
+To create a virtual environment ,we need to install virtual environment
+>pip install virtualenv
+Create a environments folder ,where you can create different environments of the python
+>mkdir environments
+>virtualenv -p /usr/local/bin/python3.6 py_dyango --this means i have installed a virtual env of python3.6 in a enviornment name called py_dyango
+activate the envionrment now
+>source /py_dyango/bin/activate
+>(py_dyango) Gauravs-MacBook-Pro:enviornments_python gauravsoni$ --this shows that virtual enviornment is activated
+now install different packages in the enviornments using pip command
+>pip install numpy
+>pip install pytz
+>pip install psutil
+>pip list
