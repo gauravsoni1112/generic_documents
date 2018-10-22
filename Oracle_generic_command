@@ -1,0 +1,7 @@
+--this is used to check uncommited transactions
+select * from v$transaction;
+--check the logging mode of database
+select * from v$database;
+--insert bulk data into a table,precondition use no logging while creating table or alter session 
+INSERT /*+ APPEND */
+INSERT /* +APPEND_VALUES */ 
